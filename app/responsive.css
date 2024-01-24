@@ -1,0 +1,19 @@
+@media all and (max-width: 1199px) {
+}
+@media all and (max-width: 1024px) {
+}
+@media all and (max-width: 991px) {
+}
+@media all and (max-width: 767px) {
+  .mobsec2 > img,
+  .wdsec2 > img,
+  .logosec2img > img {
+    margin: auto;
+  }
+}
+@media all and (max-width: 414px) {
+}
+@media all and (max-width: 567px) {
+}
+@media all and (max-width: 320px) {
+}
