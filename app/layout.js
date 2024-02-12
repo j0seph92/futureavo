@@ -20,8 +20,8 @@ export const metadata = {
   description:
     "Future AVO: Elevate your brand with our premier web design & web development team, delivering top-tier solutions and unmatched passion.",
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
     // nocache: true,
   },
 };
@@ -30,8 +30,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="facebook-domain-verification" content="" />
-        <meta name="google-site-verification" content="" />
+        <meta
+          name="facebook-domain-verification"
+          content="2r0rez2bvmdeze79sztvxizcdy9yhy"
+        />
+        <meta
+          name="google-site-verification"
+          content="6ZGb3gtjrwlfUwgu-FYEMXS5JJPWrltiyVwIihIfqTM"
+        />
         {/* Start of GTM container code Head */}
         <script
           dangerouslySetInnerHTML={{
@@ -39,7 +45,7 @@ export default function RootLayout({ children }) {
               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
               j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-');`,
+              })(window,document,'script','dataLayer','GTM-WT78QM5P');`,
           }}
         />
         {/* End of GTM container code Head */}
