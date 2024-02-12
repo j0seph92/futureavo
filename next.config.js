@@ -6,8 +6,8 @@
 // module.exports = nextConfig;
 module.exports = {
   output: "export",
-  api: {
-    externalResolver: true,
-    bodyParser: false,
-  },
+  // api: {
+  //   externalResolver: true,
+  //   bodyParser: false,
+  // },
 };

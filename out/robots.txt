@@ -1,0 +1,17 @@
+User-agent: *
+
+Disallow: /*.js$
+Disallow: /*.html$
+Disallow: /*/1000$
+Disallow: /cgi-bin/
+Disallow: /*tag/
+Disallow: /*category/
+Disallow: /*industry/
+Disallow: /assets/
+Disallow: /blog2/
+Disallow: /blogs/wp-content/plugins/
+Disallow: /blogs/wp-admin/
+Disallow: /thank-you
+
+
+Sitemap: https://futureavo.com/sitemap.xml

@@ -1,5 +1,5 @@
 export function globalPhone() {
-  return "(917) 695-0472";
+  return "(888) 299-8645";
 }
 
 export function globalAddress() {

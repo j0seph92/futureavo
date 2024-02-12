@@ -77,7 +77,7 @@ const FloatingIcons = ({ btnColor }) => {
       <a
         className={`cursor-pointer hidden lg:flex items-center rounded-tl-[50px] rounded-bl-[50px] py-2 px-4 gap-4 translate-x-[75%] hover:translate-x-[1%] ${
           btnColor ? btnColor : "bg-[#0F2847]"
-        } fixed top-[23%] right-0 z-50`}
+        } fixed top-[25%] right-0 z-50`}
         href="javscript:;"
         onClick={handleToggle}
       >
@@ -89,7 +89,7 @@ const FloatingIcons = ({ btnColor }) => {
       <Link
         className={`cursor-pointer hidden lg:flex items-center rounded-tl-[50px] rounded-bl-[50px] py-2 px-4 gap-4 translate-x-[75%] hover:translate-x-[1%] ${
           btnColor ? btnColor : "bg-[#0F2847]"
-        } fixed top-[33%] right-0 z-50`}
+        } fixed top-[35%] right-0 z-50`}
         href={`tel:${globalPhone()}`}
       >
         <FaPhone className="block text-3xl font-semibold text-white" />
@@ -97,11 +97,11 @@ const FloatingIcons = ({ btnColor }) => {
           {globalPhone()}
         </span>
       </Link>
-      <div className="cursor-pointer hidden lg:flex items-center translate-x-[100%] hover:translate-x-[1%] fixed top-[43%] right-0 z-50">
+      <div className="cursor-pointer hidden lg:flex items-center translate-x-[100%] hover:translate-x-[1%] fixed top-[45%] right-0 z-50">
         <span
           className={`text-white font-normal text-lg ${
             btnColor ? btnColor : "bg-[#0F2847]"
-          } tracking-wide rotate-[-90deg] absolute top-[50%] left-[-115px] rounded-tr-[30px] rounded-tl-[30px] py-2 px-3 `}
+          } tracking-wide rotate-[-90deg] absolute top-[25.6%] left-[-116px] rounded-tr-[30px] rounded-tl-[30px] py-2 px-3 `}
         >
           Get Free Strategy
         </span>

@@ -103,6 +103,14 @@ const footer = () => {
                   <li>
                     <Link
                       className="text-sm font-normal leading-8 text-white xl:text-base hover:opacity-50 xl:leading-8"
+                      href="/refund-policy"
+                    >
+                      Refund Policy
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="text-sm font-normal leading-8 text-white xl:text-base hover:opacity-50 xl:leading-8"
                       href="/privacy-policy"
                     >
                       Privacy Policy
@@ -269,22 +277,28 @@ const footer = () => {
               <div className="basis-full sm:basis-1/2">
                 <ul className="flex items-center justify-center gap-4 sm:justify-end">
                   <li className="bg-[#375a85] w-7 h-7 flex items-center justify-center p-1 hover:opacity-50">
-                    <Link href="#">
+                    <Link
+                      href="https://www.facebook.com/FutureAvo"
+                      target="_blank"
+                    >
                       <FaFacebookF className="text-white" />
                     </Link>
                   </li>
                   <li className="bg-[#375a85] w-7 h-7 flex items-center justify-center p-1 hover:opacity-50">
-                    <Link href="#">
+                    <Link href="#" target="_blank">
                       <FaTwitter className="text-white" />
                     </Link>
                   </li>
                   <li className="bg-[#375a85] w-7 h-7 flex items-center justify-center p-1 hover:opacity-50">
-                    <Link href="#">
+                    <Link
+                      href="https://www.instagram.com/future.avo"
+                      target="_blank"
+                    >
                       <FaInstagramSquare className="text-white" />
                     </Link>
                   </li>
                   <li className="bg-[#375a85] w-7 h-7 flex items-center justify-center p-1 hover:opacity-50">
-                    <Link href="#">
+                    <Link href="#" target="_blank">
                       <FaLinkedin className="text-white" />
                     </Link>
                   </li>

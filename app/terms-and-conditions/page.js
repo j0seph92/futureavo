@@ -2,6 +2,7 @@ import React from "react";
 import Deliveries from "../Components/Deliveries";
 import PreFooter from "../Components/PreFooter";
 import FloatingIcons from "../Components/FloatingIcons";
+import { globalPhone, globalEmail } from "../Components/Global";
 
 const page = () => {
   return (
@@ -21,126 +22,110 @@ const page = () => {
         <div className="container m-auto">
           <div className="flex flex-wrap md:flex-nowrap">
             <div className="basis-full">
-              <p className="text-base font-light text-black">
-                These Terms and Conditions apply to the Future Avo website.
-                Please carefully read these Terms and Conditions and then
-                proceed.
+              <p className="text-base font-normal text-black">
+                These Terms and Conditions are applicable to our website
+                &ldquo;Futureavo.com.&rdquo; By using the site, you consent to
+                these Terms and Conditions.<strong>&nbsp;</strong>If you do not
+                agree to these Terms, refrain from proceeding. Besides these
+                terms, you are bound to abide by general terms and conditions,
+                including terms of third-party applications that are used to
+                access services provided by the website.&nbsp;
+              </p>
+              <br></br>
+              <h3>
                 <strong>
-                  By using the site, you consent to be bound by these Terms and
-                  Conditions.
+                  <span>Modification to Terms and Conditions</span>
                 </strong>
+              </h3>
+              <p className="text-base font-normal text-black">
+                The Website may change these Terms at any time and without
+                notice. If these terms are revised, the most recent version will
+                be available on the website along with the amendment date. You
+                are solely responsible for staying informed about any
+                modifications to these Terms. You will be considered to have
+                read, understood, and consented to all applicable Terms at that
+                time if you continue to use the Website after any modifications
+                to the Terms go into effect.
               </p>
               <br></br>
               <h3>
-                <strong>Revision Policy</strong>
+                <strong>
+                  <span>Permitted Use</span>
+                </strong>
               </h3>
-              <p className="text-base font-light text-black">
-                The number of revisions depends on the package a client selects,
-                and as per the package, you can avail as many revisions as
-                required. As per our revision policy, clients aren’t liable to
-                pay additional fees for revisions. Any modifications or
-                alterations needed following the final product will be
-                considered a new order and will incur separate charges.
+              <p className="text-base font-normal text-black">
+                You may use the service offered via the Website only if you
+                comply with these Terms. However, you may only use the Website
+                to purchase content, design, software, and marketing services in
+                agreement with the Terms &amp; Conditions and Policies.&nbsp;
+              </p>
+
+              <br></br>
+              <p className="text-base font-normal text-black">
+                By using the Website or any software/hardware associated with
+                it, you automatically consent that you will not participate in
+                any activities or submit any information or material that
+                disrupts or interferes with the Website or that is intended to
+                do so.
               </p>
               <br></br>
               <h3>
-                <strong>Refund Policy</strong>
+                <strong>
+                  <span>Website Use &amp; Services Offered</span>
+                </strong>
               </h3>
-              <p className="text-base font-light text-black">
-                Future Avo’s refund policy will result in no reimbursement in
-                the following cases:
+              <p className="text-base font-normal text-black">
+                Future Avo&rsquo;s website is available for any individual for
+                personal and professional usage. In case any user violates any
+                policy or Terms &amp; Conditions, we reserve the right to
+                modify, suspend, or terminate any account or website access.
+                Having said that, if a user fails to abide by the post-sale
+                terms, we may suspend or terminate access to our services and
+                website.&nbsp;
               </p>
               <br></br>
-              <ul className="text-base font-light text-black">
-                <li>You’ve requested revisions.</li>
-                <li>The initial draft/ concept has been approved.</li>
-                <li>The policies have been violated.</li>
-                <li>A complete alteration is requested.</li>
-                <li>
-                  The request for a refund after the specified period has been
-                  exceeded.
-                </li>
-                <li>
-                  If the reasons aren’t related to our services or company.
-                </li>
-                <li>
-                  In cases where a client avails a service bundle and is
-                  unsatisfied with any one of the services, the refund will only
-                  be applicable to that particular service and not to the entire
-                  bundle.
-                </li>
-                <li>
-                  Refunds are not available to the customer after 15 days from
-                  the date of purchase.
-                </li>
-                <li>
-                  Under no circumstances are services such as social media, SEO,
-                  domain registration, and web hosting eligible for refunds.
-                </li>
-                <li>
-                  Refunds for websites will not be accepted after the client has
-                  given their approval to the design and the website is sent to
-                  be developed.
-                </li>
+              <h3>
+                <strong>
+                  <span>Indemnity &amp; Liability</span>
+                </strong>
+              </h3>
+              <p className="text-base font-normal text-black">
+                The website explicitly disclaims all liability for losses or
+                damages of any kind, including consequential, compensatory,
+                actual, punitive, special, incidental. Moreover, the website
+                disclaims all liability for any loss of business opportunity or
+                other losses that you may incur with usage of the website.
+              </p>
+
+              <br></br>
+              <p className="text-base font-normal text-black">
+                By using this website, you consent to defend and hold Future
+                Avo&rsquo;s executives, directors, sponsors, business partners,
+                advisors, consultants, or anyone affiliated with our firm from
+                any claims or charges made by any third party regarding:
+              </p>
+              <br></br>
+              <ul className="text-base font-normal text-black list-disc">
+                <li>Violating these terms.</li>
+                <li>Misusing this website.</li>
+                <li>Violation of any law.</li>
               </ul>
-              <p className="text-base font-light text-black">
-                <strong>Please note: </strong>We possess the right to cancel the
-                contract or reject the project whenever necessary. Once the
-                refund is processed, you will not possess the right to use the
-                property as it belongs solely to Future Avo.
-              </p>
+
               <br></br>
-              <h3>
-                <strong>Claim Your Refund</strong>
-              </h3>
-              <p className="text-base font-light text-black">
-                To claim your refund, you can avail one of the following
-                options:
+              <p className="text-base font-normal text-black">
+                In case of any queries or concerns, reach out to us through the
+                details mentioned below:
               </p>
-              <ul className="text-base font-light text-black">
-                <li>Give us a call.</li>
-                <li>Start a live chat with us.</li>
-                <li>Drop us an email.</li>
-              </ul>
-              <p className="text-base font-light text-black">
-                As soon as our representatives receive the request, they’ll get
-                back to you as soon as possible, and the process will begin.
+
+              <br></br>
+              <p className="text-base font-normal text-black">
+                <strong>Phone Number:</strong> {globalPhone()} - Toll Free
+                Number
               </p>
+
               <br></br>
-              <h3>
-                <strong>Quality Assurance Policy</strong>
-              </h3>
-              <p className="text-base font-light text-black">
-                We go above and beyond to meet client requirements and fulfill
-                their expectations. We conduct effective QA before forwarding
-                deliverables.
-              </p>
-              <br></br>
-              <h3>
-                <strong>100% Satisfaction Guarantee</strong>
-              </h3>
-              <ul className="text-base font-light text-black">
-                <li>
-                  We offer unlimited revisions to ensure utmost client
-                  satisfaction.
-                </li>
-                <li>
-                  We strive to surpass expectations and work dedicatedly to
-                  accomplish that.
-                </li>
-                <li>
-                  Until clients are satisfied with the result, we will continue
-                  providing revisions (the number of revisions will depend on
-                  your package).
-                </li>
-              </ul>
-              <br></br>
-              <h3>
-                <strong>Customer Support</strong>
-              </h3>
-              <p className="text-base font-light text-black">
-                Our representatives are here to assist clients 24/7 and are
-                available to cater to concerns and queries all around the clock.
+              <p className="text-base font-normal text-black">
+                <strong>Email:</strong> {globalEmail()}
               </p>
             </div>
           </div>

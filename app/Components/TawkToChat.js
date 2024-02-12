@@ -4,8 +4,7 @@ import { useEffect } from "react";
 const TawkToChat = () => {
   useEffect(() => {
     const tawkToScript = document.createElement("script");
-    tawkToScript.src =
-      "https://embed.tawk.to/65a82ee20ff6374032c17f4f/1hkcfe9il";
+    tawkToScript.src = "code";
     tawkToScript.async = true;
 
     document.head.appendChild(tawkToScript);
