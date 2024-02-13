@@ -29,7 +29,7 @@ const OurServices = () => {
                   <div className="flex flex-wrap gap-4 justify-evenly lg:flex-nowrap">
                     <div className="basis-[45%]  lg:basis-1/5">
                       <div className="approach___cards__rzZMW shadow-[0_23px_56px_rgba(0,0,0,0.3)] relative lg:-rotate-45 lg:right-[-200px] z-[1]">
-                        <a href="/logo-design-company">
+                        <a href="/logo-design">
                           <img
                             alt="uiux"
                             loading="lazy"
@@ -69,7 +69,7 @@ const OurServices = () => {
                     </div>
                     <div className="basis-[45%]  lg:basis-1/5">
                       <div className="approach___cards__rzZMW shadow-[0_23px_56px_rgba(0,0,0,0.3)] relative z-[3]">
-                        <a href="/mobile-app-design-company">
+                        <a href="/mobile-app-development-company">
                           <img
                             alt="branding"
                             loading="lazy"
@@ -89,7 +89,7 @@ const OurServices = () => {
                     </div>
                     <div className="basis-[45%]  lg:basis-1/5">
                       <div className="approach___cards__rzZMW shadow-[0_23px_56px_rgba(0,0,0,0.3)] relative lg:rotate-45 lg:right-[100px] z-[4]">
-                        <a href="/digital-marketing-company">
+                        <a href="/digital-marketing-agency">
                           <img
                             alt="socialMedia"
                             loading="lazy"
@@ -109,7 +109,7 @@ const OurServices = () => {
                     </div>
                     <div className="basis-[45%]  lg:basis-1/5">
                       <div className="approach___cards__rzZMW shadow-[0_23px_56px_rgba(0,0,0,0.3)] relative lg:rotate-45 lg:right-[200px] z-[5]">
-                        <a href="/seo-company">
+                        <a href="/seo-services">
                           <img
                             alt="brandColors"
                             loading="lazy"
